@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class DGames : ModuleRules
+public class JobSimulator : ModuleRules
 {
-	public DGames(ReadOnlyTargetRules Target) : base(Target)
+	public JobSimulator(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
        // PrivatePCHHeaderFile = "Private/WindowsMixedRealityPrecompiled.h";

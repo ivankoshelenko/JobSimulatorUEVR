@@ -3,15 +3,15 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class DGamesEditorTarget : TargetRules
+public class JobSimulatorEditorTarget : TargetRules
 {
-	public DGamesEditorTarget(TargetInfo Target) : base(Target)
+	public JobSimulatorEditorTarget(TargetInfo Target) : base(Target)
 	{
         DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
         Type = TargetType.Editor;
-        ExtraModuleNames.AddRange(new string[] { "DGames" });
+        ExtraModuleNames.AddRange(new string[] { "JobSimulator" });
 		//bUseUnityBuild = false;
 		//bUsePCHFiles = false;
     }
@@ -26,6 +26,6 @@ public class DGamesEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "DGames" } );
+		OutExtraModuleNames.AddRange( new string[] { "JobSimulator" } );
 	}*/
 }

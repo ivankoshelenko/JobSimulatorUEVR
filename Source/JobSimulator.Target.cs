@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class DGamesTarget : TargetRules
+public class JobSimulatorTarget : TargetRules
 {
-	public DGamesTarget(TargetInfo Target) : base(Target)
+	public JobSimulatorTarget(TargetInfo Target) : base(Target)
 	{
 
         DefaultBuildSettings = BuildSettingsVersion.V2;
@@ -13,7 +13,7 @@ public class DGamesTarget : TargetRules
 
         //bUseLoggingInShipping = true;
         Type = TargetType.Game;
-        ExtraModuleNames.AddRange(new string[] { "DGames" });
+        ExtraModuleNames.AddRange(new string[] { "JobSimulator" });
         //bUsePCHFiles = false;
         //bUseUnityBuild = false;
 
@@ -56,6 +56,6 @@ public class DGamesTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "DGames" } );
+		OutExtraModuleNames.AddRange( new string[] { "JobSimulator" } );
 	}*/
 }

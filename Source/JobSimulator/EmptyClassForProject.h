@@ -18,7 +18,7 @@
 /**
  * 
  */
-class DGAMES_API EmptyClassForProject
+class JOBSIMULATOR_API EmptyClassForProject
 {
 public:
 	EmptyClassForProject();

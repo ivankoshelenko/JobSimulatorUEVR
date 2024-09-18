@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "DGames",
+			"Name": "JobSimulator",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
